@@ -1,0 +1,88 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+.master-box {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 355px);
+  grid-template-rows: repeat(4, 137.5px);
+  margin: 0 auto: ;
+}
+
+.box-icon {
+  float:right;
+  margin: 20px 10px 15px auto;
+}
+
+.first-line {
+font-weight: lighter;
+}
+
+p {
+  color: #a3a3a5;
+  margin-bottom: 20px;
+}
+
+.reliable {
+  line-height: 0.9;
+  text-align: center;
+  width: 30%;
+  margin: 50px auto;
+}
+
+.reliable-p {
+  font-weight: normal;
+  font-size: 0.9rem;
+  line-height: 1;
+}
+
+.box {
+border-radius: 2%;
+border-style: solid;
+border-width: 5px 0 0;
+-webkit-box-shadow: 0 16px 22px 0 rgba(0,0,0,0.75);
+-moz-box-shadow: 0 16px 22px 0 rgba(0,0,0,0.75);
+box-shadow: 0 16px 22px 0 rgba(0,0,0,0.75);
+font-size: 0.8rem;
+padding: 10px 10px 20px 15px;
+margin: 0 20px 20px;
+width: 300px;
+height: 200px;
+}
+
+.team-builder {
+  border-color: #ea5551;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+}
+
+.supervisor {
+  border-color: #40d5d3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.karma {
+  border-color: #fcae4a;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 5;
+
+}
+
+.calculator {
+  border-color: #559cec;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+
+}
