@@ -193,7 +193,7 @@ body {
 .master-box {
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(3, 355px);
+  grid-template-columns: repeat(3, 3fr);
   grid-template-rows: repeat(4, 137.5px);
   margin: 0 17px;
 
@@ -288,5 +288,23 @@ height: 190px;
   grid-row-start: 2;
   grid-row-end: 4;
 
+}
+}
+
+/*-----------------------------------------------------------------*/
+
+@media only screen and (min-width: 1050px) {
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.master-box {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 350px);
+  grid-template-rows: repeat(4, 137.5px);
+  margin: 0 17px;
 }
 }
