@@ -1,5 +1,5 @@
 @media only screen and (max-width: 450px) {
-  
+
   body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -9,7 +9,7 @@
   .master-box {
     display: grid;
     justify-content: center;
-    margin: auto;
+    margin: auto auto 70px;
   }
 
   .box-icon {
@@ -102,7 +102,7 @@ body {
   justify-content: center;
   grid-template-columns: repeat(2, 2fr);
 
-  margin: 0 17px;
+  margin: 0 17px 70px;
 }
 
 .box-icon {
@@ -196,7 +196,7 @@ body {
   justify-content: center;
   grid-template-columns: repeat(3, 3fr);
   grid-template-rows: repeat(4, 137.5px);
-  margin: 0 17px;
+  margin: 0 17px 70px;
 
 
 }
